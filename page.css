@@ -1,0 +1,172 @@
+* {
+    /* font-family: "Poppins", sans-serif; */
+    margin: 0;
+    position: relative;
+}
+
+:root {
+    --background-color: #FFFFFF;
+    --button-color: #333333;
+}
+
+body {
+    padding: 20px;
+}
+
+main {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 0 0;
+}
+
+main .side {
+    display: block;
+}
+
+header {
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: var(--button-color);
+}
+
+img {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .side h1 {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    /* Gray 1 */
+    color: #333333;
+}
+
+main .side p {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+main .side button {
+    margin: 30px 0;
+    padding: 15px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    background: var(--button-color);
+    letter-spacing: -0.035em;
+    border: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #333333;
+}
+
+@media(min-width: 450px) {
+    body {
+        padding: 40px;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0;
+    }
+    main .side {
+        padding: 0 0 0 60px;
+        display: block;
+    }
+    header {
+        font-family: "Inconsolata";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+        color: var(--button-color);
+    }
+    img {
+        width: 100%;
+        max-width: 539px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .side h1 {
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        /* Gray 1 */
+        color: #333333;
+        max-width: 586px;
+    }
+    main .side p {
+        max-width: 370px;
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        /* Gray 2 */
+        color: #4F4F4F;
+    }
+    main .side button {
+        margin: 30px 0;
+        padding: 15px;
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        background: var(--button-color);
+        letter-spacing: -0.035em;
+        border: none;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    footer {
+        display: block;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #333333;
+    }
+}
